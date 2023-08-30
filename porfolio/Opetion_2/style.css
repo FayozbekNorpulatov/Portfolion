@@ -1,0 +1,131 @@
+/* ///////font ///////// */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ////// style /////// */
+body{
+    background: url("img/Ellipse\ 1\ copy.png") 50% 130px no-repeat;
+    background-color:#e8e8e8 ;
+    font-family: Arial;
+
+}
+
+.content{
+    max-width: 842px;
+    margin: 0 auto;
+    padding: 168px 0 137px 0;
+}
+
+.content-top{
+    text-align: center;
+    margin: 0 0 65px 0;
+}
+
+.content-top__text{
+    color: #273d46;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.600;
+    font-size: 20px;
+}
+
+.content-top__header{
+    font-size: 36px;
+    color: #273d46;
+    line-height: 50px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.content-image{
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 0 85px 0;
+}
+
+.content-image img{
+    max-width: 100%;
+}
+
+.content-bottom{
+    padding:0px 45px;
+}
+
+.content-bottom__text{
+    color:  #53646b;
+    
+    line-height: 40px;
+    margin: 0px 0px 50px 0px;
+}
+
+.content-bottom__text p{
+    font-size: 20px;
+    margin: 0 0 40px 0;
+    
+}
+
+.content-bottom-info__list{
+    margin: 0 0 57px 0;
+}
+
+.content-bottom-info__list li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    background: url("img/check\ icon.png") left no-repeat;
+    list-style: none;
+    padding:0 0 0 35px;
+}
+
+.content-bottom-info__list li:nth-child(1){
+    color: #273d46;
+}
+.content-bottom-info__list li:nth-child(2){
+    color: #80b7b3;
+    font-style:italic ;
+}
+.content-bottom-info__list li:nth-child(3){
+    color: #273d46;
+    font-weight: 700;
+    
+}
+.content-bottom-info__list li:nth-child(4){
+    color:rgba(39, 61, 70,0.3);
+    text-decoration:line-through ;
+
+}
+
+.content-bottom__link{
+    display: inline-block;
+    background-color: #80b7b3;
+    text-decoration: none;
+    height: 44px;
+    line-height: 44px;
+    color:#fff;
+    letter-spacing: 3px;
+    border-radius: 24px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.content-bottom__link span{
+    background-image: url("img/Shape\ 2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding:0px 30px 0px 0px;
+}
+.content-bottom__link:hover{
+    background-color: #511e23;
+}
+
+.content-bottom__link:active{
+    position:relative;
+    top:3px;
+    box-shadow:0 2px 1px rgba(0, 0, 0, 0);
+}
